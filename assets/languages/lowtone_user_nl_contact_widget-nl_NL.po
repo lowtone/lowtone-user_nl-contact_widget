@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User.nl Contact Widget\n"
+"POT-Creation-Date: 2013-09-27 15:02+0100\n"
+"PO-Revision-Date: 2013-09-27 15:02+0100\n"
+"Last-Translator: Paul van der Meijs <info@lowtone.nl>\n"
+"Language-Team: Lowtone <info@lowtone.nl>\n"
+"Language: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../lowtone-user_nl-contact_widget.php:43
+msgid "User.nl Contact Widget"
+msgstr "User.nl Contact Widget"
+
+#: ../../lowtone-user_nl-contact_widget.php:44
+msgid "Add a widget to subscribe to a User.nl contact group."
+msgstr "Een widget om contactpersonen aan het User.nl dashboard toe te voegen."
+
+#: ../../lowtone-user_nl-contact_widget.php:56
+msgid "Standard fields"
+msgstr "Standaard velden"
+
+#: ../../lowtone-user_nl-contact_widget.php:60
+#: ../../lowtone-user_nl-contact_widget.php:255
+msgid "First name"
+msgstr "Voornaam"
+
+#: ../../lowtone-user_nl-contact_widget.php:67
+#: ../../lowtone-user_nl-contact_widget.php:256
+msgid "Last name"
+msgstr "Achternaam"
+
+#: ../../lowtone-user_nl-contact_widget.php:74
+#: ../../lowtone-user_nl-contact_widget.php:257
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../../lowtone-user_nl-contact_widget.php:81
+#: ../../lowtone-user_nl-contact_widget.php:258
+msgid "Gender"
+msgstr "Geslacht"
+
+#: ../../lowtone-user_nl-contact_widget.php:82
+msgid "Address"
+msgstr "Adres"
+
+#: ../../lowtone-user_nl-contact_widget.php:83
+msgid "Zipcode"
+msgstr "Postcode"
+
+#: ../../lowtone-user_nl-contact_widget.php:84
+#: ../../lowtone-user_nl-contact_widget.php:263
+msgid "Fax"
+msgstr "Fax"
+
+#: ../../lowtone-user_nl-contact_widget.php:85
+#: ../../lowtone-user_nl-contact_widget.php:260
+msgid "Occupation"
+msgstr "Beroep"
+
+#: ../../lowtone-user_nl-contact_widget.php:86
+#: ../../lowtone-user_nl-contact_widget.php:262
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: ../../lowtone-user_nl-contact_widget.php:87
+#: ../../lowtone-user_nl-contact_widget.php:261
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: ../../lowtone-user_nl-contact_widget.php:88
+#: ../../lowtone-user_nl-contact_widget.php:259
+msgid "Company"
+msgstr "Bedrijf"
+
+#: ../../lowtone-user_nl-contact_widget.php:89
+msgid "Birthday"
+msgstr "Geboortedatum"
+
+#: ../../lowtone-user_nl-contact_widget.php:107
+msgid "Custom fields"
+msgstr "Aangepaste velden"
+
+#: ../../lowtone-user_nl-contact_widget.php:128
+msgid "Add field"
+msgstr "Veld toevoegen"
+
+#: ../../lowtone-user_nl-contact_widget.php:138
+msgid "Title"
+msgstr "Titel"
+
+#: ../../lowtone-user_nl-contact_widget.php:144
+msgid "API key"
+msgstr "API sleutel"
+
+#: ../../lowtone-user_nl-contact_widget.php:156
+msgid "Contact group"
+msgstr "Contactgroep"
+
+#: ../../lowtone-user_nl-contact_widget.php:161
+msgid "Group Id"
+msgstr "Groep Id"
+
+#: ../../lowtone-user_nl-contact_widget.php:167
+msgid "Allow duplicates"
+msgstr "Dubbele contacten toestaan"
+
+#: ../../lowtone-user_nl-contact_widget.php:175
+msgid "Notification"
+msgstr "Melding"
+
+#: ../../lowtone-user_nl-contact_widget.php:180
+msgid "Recipient"
+msgstr "Ontvanger"
+
+#: ../../lowtone-user_nl-contact_widget.php:186
+msgid "Message"
+msgstr "Bericht"
+
+#: ../../lowtone-user_nl-contact_widget.php:194
+msgid "Button"
+msgstr "Knop"
+
+#: ../../lowtone-user_nl-contact_widget.php:199
+msgid "Button text"
+msgstr "Knoptekst"
+
+#: ../../lowtone-user_nl-contact_widget.php:235
+msgid "Sign Up"
+msgstr "Inschrijven"
+
+#: ../../lowtone-user_nl-contact_widget.php:264
+msgid "Address 1"
+msgstr "Adres 1"
+
+#: ../../lowtone-user_nl-contact_widget.php:265
+msgid "Address 2"
+msgstr "Adres 2"
+
+#: ../../lowtone-user_nl-contact_widget.php:266
+msgid "City"
+msgstr "Stad"
+
+#: ../../lowtone-user_nl-contact_widget.php:267
+msgid "Country"
+msgstr "Land"
+
+#: ../../lowtone-user_nl-contact_widget.php:268
+msgid "State"
+msgstr "Provincie"
+
+#: ../../lowtone-user_nl-contact_widget.php:269
+msgid "Zip/Postcode"
+msgstr "Postcode"
+
+#: ../../lowtone-user_nl-contact_widget.php:271
+msgid "January"
+msgstr "Januari"
+
+#: ../../lowtone-user_nl-contact_widget.php:272
+msgid "February"
+msgstr "februari"
+
+#: ../../lowtone-user_nl-contact_widget.php:273
+msgid "March"
+msgstr "maart"
+
+#: ../../lowtone-user_nl-contact_widget.php:274
+msgid "April"
+msgstr "april"
+
+#: ../../lowtone-user_nl-contact_widget.php:275
+msgid "May"
+msgstr "mei"
+
+#: ../../lowtone-user_nl-contact_widget.php:276
+msgid "June"
+msgstr "juni"
+
+#: ../../lowtone-user_nl-contact_widget.php:277
+msgid "July"
+msgstr "juli"
+
+#: ../../lowtone-user_nl-contact_widget.php:278
+msgid "August"
+msgstr "Augustus"
+
+#: ../../lowtone-user_nl-contact_widget.php:279
+msgid "September"
+msgstr "september"
+
+#: ../../lowtone-user_nl-contact_widget.php:280
+msgid "October"
+msgstr "oktober"
+
+#: ../../lowtone-user_nl-contact_widget.php:281
+msgid "November"
+msgstr "november"
+
+#: ../../lowtone-user_nl-contact_widget.php:282
+msgid "December"
+msgstr "december"
+
+#: ../../lowtone-user_nl-contact_widget.php:286
+msgid "Please enter your first name."
+msgstr "Een voornaam is verplicht."
+
+#: ../../lowtone-user_nl-contact_widget.php:287
+#: ../../lowtone-user_nl-contact_widget.php:291
+msgid "Enter at least {0} characters."
+msgstr "Voer tenminste {0} tekens in."
+
+#: ../../lowtone-user_nl-contact_widget.php:290
+msgid "Please enter your last name."
+msgstr "Een achternaam is verplicht."
+
+#: ../../lowtone-user_nl-contact_widget.php:294
+msgid "Please enter your email."
+msgstr "Een e-mailadres is verplicht."
+
+#: ../../lowtone-user_nl-contact_widget.php:295
+msgid "Please enter a valid email address."
+msgstr "Vul een geldig e-mailadres in."
+
+#: ../../lowtone-user_nl-contact_widget.php:298
+msgid "Please select your birthday."
+msgstr "Selecteer een dag."
+
+#: ../../lowtone-user_nl-contact_widget.php:301
+msgid "Please select your birthday month."
+msgstr "Selecteer een maand."
+
+#: ../../lowtone-user_nl-contact_widget.php:304
+msgid "Please select your birthday year."
+msgstr "Selecteer een jaar."
+
+#: ../../lowtone-user_nl-contact_widget.php:356
+msgid "Field title"
+msgstr "Veldtitel"
+
+#: ../../lowtone-user_nl-contact_widget.php:362
+msgid "Field name"
+msgstr "Veldnaam"
+
+#: ../../lowtone-user_nl-contact_widget.php:368
+msgid "Required"
+msgstr "Vereist"
+
+#: ../../lowtone-user_nl-contact_widget.php:375
+msgid "Field type"
+msgstr "Veldtype"
+
+#: ../../lowtone-user_nl-contact_widget.php:387
+msgid "Text"
+msgstr "Tekst"
+
+#: ../../lowtone-user_nl-contact_widget.php:388
+msgid "Textarea"
+msgstr "Tekstveld"
+
+#: ../../lowtone-user_nl-contact_widget.php:389
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: ../../lowtone-user_nl-contact_widget.php:390
+msgid "List"
+msgstr "Lijst"
+
+#: ../../lowtone-user_nl-contact_widget.php:391
+msgid "Date"
+msgstr "Datum"
+
+#: ../../lowtone-user_nl-contact_widget.php:392
+msgid "Time"
+msgstr "Tijd"
+
+#: ../../lowtone-user_nl-contact_widget.php:393
+msgid "URL"
+msgstr "URL"
+
+#: ../../lowtone-user_nl-contact_widget.php:394
+msgid "Numeric"
+msgstr "Numeriek"
+
+#: ../../lowtone-user_nl-contact_widget.php:401
+msgid "Field options"
+msgstr "Veldopties"

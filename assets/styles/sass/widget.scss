@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#snd_form {
+
+	#snd_tbl {
+		float: left; 
+		width: 100%;
+	}
+
+	#snd_row {
+		float: left; 
+		display: block; 
+		width: 100%; 
+		padding: 5px;
+	}
+
+	#snd_label {
+		float: left; 
+		width: 30%;
+	}
+
+	#snd_data {
+		float: left; 
+		width: 70%;
+
+		.prefs {
+			width: 100%;
+		}
+
+		input {
+			width: 100%;
+		}
+
+		.error  { 
+			border: 1px dotted red;
+		}
+	}
+
+	#snd_buttons {
+		float: left; 
+		width: 70%;
+
+		input {
+			width: 120px;
+		}
+	}
+
+	#snd_errors { 
+		float: left; 
+		color: red;
+		width: 250px;
+
+		.error  { 
+			float: none; 
+			display: block;
+			clear:both;
+			width: auto;
+		}
+	}
+
+}
