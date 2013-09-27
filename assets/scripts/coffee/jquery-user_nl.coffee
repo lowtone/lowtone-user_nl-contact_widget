@@ -64,7 +64,7 @@ $ = jQuery
 			this.triggerHandler type, [$.event.fix {type: type, target: target}]
 )()
 
-# Sensible part starts
+# Sendible part starts
 
 _sendible_params = {}
 
