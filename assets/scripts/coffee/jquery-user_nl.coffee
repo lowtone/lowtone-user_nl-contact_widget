@@ -66,91 +66,88 @@ $ = jQuery
 
 # Sendible part starts
 
-_sendible_params = {}
-
-default_params = 
-	labels: 
-		first_name: 'First name'
-		last_name: 'Last name'
-		email: 'E-mail'
-		gender: 'Gender'
-		company: 'Company'
-		occupation: 'Occupation'
-		telephone: 'Telephone'
-		mobile: 'Mobile'
-		fax: 'Fax'
-		address1: 'Address 1'
-		address2: 'Address 2'
-		city: 'City'
-		country: 'Country'
-		state: 'State'
-		zipcode: 'Zip/Postcode'
-		months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-		validate: 
-			first_name:
-				required: 'Please enter your first name.'
-				minlength: 'Enter at least {0} characters.'
-			last_name:
-				required: 'Please enter your last name.'
-				minlength: 'Enter at least {0} characters.'
-			email:
-				required: 'Please enter your email.'
-				email: 'Please enter a valid email address.'
-			birthday:
-				required: 'Please select your birthday.'
-			birthmonth:
-				required: 'Please select your birthday month.'
-			birthyear:
-				required: 'Please select your birthday year.'
-
-$ ->
-	$('#snd_form').validate
-		rules:
-			first_name:
-				required: true
-				minlength: 2
-
-			last_name:
-				required: true
-
-			email:
-				required: true
-				email: true
-
-			birthday:
-				required: true
-
-			birthmonth:
-				required: true
-
-			birthyear:
-				required: true
-
-		messages:
-			first_name:
-				required: _sendible_params.labels.validate.first_name.required
-				minlength: jQuery.format _sendible_params.labels.validate.first_name.minlength
-
-			last_name:
-				required: _sendible_params.labels.validate.last_name.required
-				minlength: jQuery.format _sendible_params.labels.validate.last_name.minlength
-
-			email:
-				required: _sendible_params.labels.validate.email.required
-				email: _sendible_params.labels.validate.email.email
-
-			birthday:
-				required: _sendible_params.labels.validate.birthday.required
-
-			birthmonth:
-				required: _sendible_params.labels.validate.birthmonth.required
-
-			birthyear:
-				required: _sendible_params.labels.validate.birthyear.required
-
-		errorLabelContainer: '#snd_errors'
-
 window.user_nl = (->
+
+	_sendible_params = {}
+
+	# Configure validation
+
+	$ ->
+		$('#snd_form').validate
+			rules:
+				first_name:
+					required: true
+					minlength: 2
+				last_name:
+					required: true
+				email:
+					required: true
+					email: true
+				birthday:
+					required: true
+				birthmonth:
+					required: true
+				birthyear:
+					required: true
+
+			messages:
+				first_name:
+					required: _sendible_params.labels.validate.first_name.required
+					minlength: jQuery.format _sendible_params.labels.validate.first_name.minlength
+				last_name:
+					required: _sendible_params.labels.validate.last_name.required
+					minlength: jQuery.format _sendible_params.labels.validate.last_name.minlength
+				email:
+					required: _sendible_params.labels.validate.email.required
+					email: _sendible_params.labels.validate.email.email
+				birthday:
+					required: _sendible_params.labels.validate.birthday.required
+				birthmonth:
+					required: _sendible_params.labels.validate.birthmonth.required
+				birthyear:
+					required: _sendible_params.labels.validate.birthyear.required
+
+			errorLabelContainer: '#snd_errors'
+	
+	# Default params for new_contact_form
+	
+	default_params = 
+		labels: 
+			first_name: 'First name'
+			last_name: 'Last name'
+			email: 'E-mail'
+			gender: 'Gender'
+			company: 'Company'
+			occupation: 'Occupation'
+			telephone: 'Telephone'
+			mobile: 'Mobile'
+			fax: 'Fax'
+			address1: 'Address 1'
+			address2: 'Address 2'
+			city: 'City'
+			country: 'Country'
+			state: 'State'
+			zipcode: 'Zip/Postcode'
+			months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+			validate: 
+				first_name:
+					required: 'Please enter your first name.'
+					minlength: 'Enter at least {0} characters.'
+				last_name:
+					required: 'Please enter your last name.'
+					minlength: 'Enter at least {0} characters.'
+				email:
+					required: 'Please enter your email.'
+					email: 'Please enter a valid email address.'
+				birthday:
+					required: 'Please select your birthday.'
+				birthmonth:
+					required: 'Please select your birthday month.'
+				birthyear:
+					required: 'Please select your birthday year.'
+
+	# Return the object
+
 	new_contact_form: (params) ->
 		params = $.extend null, default_params, params
 
